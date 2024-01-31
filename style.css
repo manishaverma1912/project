@@ -1,0 +1,272 @@
+ *{
+    padding: 0px;
+    margin: 0px;
+ }
+
+ select{
+ padding: 15px;
+ border-radius: 20px;
+ font-size: 20px;
+ }
+ 
+ 
+ 
+  div{
+/* 
+    height:700px;
+    background-color: red;
+    width: auto;
+    /* background-position: center center; */
+    background-repeat: no-repeat;
+    /* background-image: url(images.png); */
+    /* background-image: url(AAAABVr8nYuAg0xDpXDv0VI9HUoH7r2aGp4TKRCsKNQrMwxzTtr-NlwOHeS8bCI2oeZddmu3nMYr3j9MjYhHyjBASb1FaOGYZNYvPBCL.png); */
+    background-image: url(ma.jpg);
+    position:relative;
+    opacity: 0.2px;
+    /* width: 1450px; */
+
+
+    
+    /* background-size: 1000px ; */
+    
+   } 
+dd{
+   height: 20px;
+   margin: 2px;
+
+   /* font-size: 5px; */
+   align-items: center;
+   padding: 10px;
+
+
+}
+
+
+button{
+   height: 30px;
+   margin: 2px;
+   background-color:rgb(52, 236, 150);
+
+   font-size: 20px;
+   align-items: center;
+   padding: 25px;
+   border-radius: 15px;
+
+/* 
+button:first-child{
+   font-weight:bolder;
+   font-size: 43px;
+}
+button:nth-child(2){
+   font-size:10px ;
+}  */
+
+
+
+}
+
+nav{
+   /* justify-content:space-between; */
+   
+   display:flex;
+   align-items:right;
+   
+   
+
+
+}
+span.manisha{
+   height:700px;
+   width:1400px;
+   padding: 30px;
+   margin: auto;
+   color:white;
+   font-size: 40px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   
+  
+   
+}
+input{
+   font-size: 40px;
+   font-style: italic;
+
+}
+ 
+.dee{
+   position: relative;
+
+   background-color: #2b2424;
+   padding: 30px;
+   margin:auto;
+   height: 500px;
+   width: 1450px;
+
+   
+}
+
+
+.first{
+   
+     
+   position:relative;
+
+   height: 600px;
+   width: 1450px;
+   padding: 30px;
+   background-color: rgb(34, 28, 28);
+}
+
+
+
+/* .net2{
+   margin: auto;
+   height: 100px;
+   width: 200px;
+   padding: 40px;
+
+} */
+.img2{
+   
+   position:relative;
+   background-color: #302727;
+   margin: auto;
+   /* height: 250px; */
+   height: 500px;
+   width: 1450px;
+   padding: 30px;
+}
+.preeti{
+      
+   position:relative;
+   height: 550px;
+   width: 1450px;
+   padding: 30px;
+   background-color: rgb(30, 23, 23);
+}
+
+.dee p{
+   color: white;
+   /* background-color: #fff; */
+   display: flex;
+   justify-content: center;
+   max-width: 50vm;
+   margin: auto ;
+   font-size:40px ;
+}
+.img2 p{
+   color: white;
+   
+   display: flex;
+   justify-content: center;
+   max-width: 50vm;
+   margin: auto ;
+
+   font-size:40px ;
+}
+.preeti a{
+   color: white;
+   display: flex;
+   justify-content: center;
+   max-width: 20vm;
+   margin: auto ;
+   font-size:40px ;
+
+}
+.first p{
+   color: white;
+   
+   display: flex;
+   justify-content: center;
+   /* justify-content: right; */
+   max-width: 20vm;
+   margin: auto ;
+
+   font-size:40px ;
+
+}
+
+    .freq {
+      background-color: #0f0c0c;
+      color: white;
+      /* justify-content:center; */
+      max-width: 20vm;
+      margin: auto ;
+      padding:30px;
+      height: 600px;
+      width: 1450px;
+      gap: 60px;
+   
+
+   }
+
+   .freq h1{
+      font-size: 60px;
+      text-align: center;
+      justify-content: center;
+   }
+
+
+
+   .freq h2{
+   font-size:  30px;
+   text-align: center;
+   max-width: 600px;
+   padding: 5px;
+   /* margin: auto; */
+   background-color: #675050;
+   justify-content: space-between;
+
+
+   }
+   .freq svg{
+      filter: invert(1);
+      justify-content: space-between;
+
+
+   }
+   footer{
+      height: 670px;
+       background-color: #181212;
+       color: white;
+
+
+      }
+       ul{
+
+
+      font-size: 25px;
+       display:grid;
+       margin:auto;
+       padding: 30px;
+       gap: 20px;
+       grid-template-columns:1fr 1fr 1fr 1fr;
+
+      
+   }
+   h3{
+      font-size: 50px;
+      justify-content: center;
+   }
+   aside{
+      font-size: 40px;
+      color: red;
+      justify-content: center;
+      margin: auto;
+      padding: 30px;
+
+   }
+    form{
+      /* align-content:right; */
+      font-style: italic;
+      padding: 4px;
+      font-size: 35px;
+      color: rgb(12, 12, 193);
+   }
+
+
+
+   
