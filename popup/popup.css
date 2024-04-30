@@ -1,0 +1,52 @@
+
+body{
+    background-color: antiquewhite;
+}
+p{
+    text-align: center;
+    text-shadow:2px 2px rgb(151, 151, 238) ;
+    font-size: 30px;
+    color: rgb(32, 3, 95);
+}
+h1{
+    text-align: center;
+    text-shadow: 4px 4px 4px  rgb(232, 64, 38);;
+    font-size: 60px;
+    color: rgb(3, 84, 84);
+    font-style:inherit;
+}
+h1::first-letter{
+    font-size: 90px;
+    color: rgb(248, 12, 95);
+}
+.outer{
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    /* display: none; */
+    /* border: 2px solid blue; */
+    width: 400px;
+    font-size: 30px;
+    padding: 8px;
+
+}
+#closebtn
+{
+    font-size: 30px;
+    border-radius: 5px;
+    background-color: rgb(131, 131, 207);
+    box-shadow: 3px 3px 2px  rgb(123, 2, 58);
+}
+#showbtn{
+    font-size: 30px;
+    box-shadow: 3px 3px 2px  red;
+    margin:auto;
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgb(207, 139, 131);
+}
+.popup{
+display: none;
+}
+
+
