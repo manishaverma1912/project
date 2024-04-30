@@ -1,0 +1,36 @@
+.container{
+    font-size: 50px;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+
+    /* if you want to display the content in center then apply this */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: linear-gradient(to right, skyblue, orange,pink,purple);
+}
+#start{
+    background-color: red;
+
+}
+#stop{
+    background-color: blue;
+}
+#reset{
+    background-color:plum ;
+}
+.btn{
+    font-size: 30px;
+    margin: 30px;
+    width: 100px;
+    padding: 8px;
+   border-radius: 5px;
+   border: 2px solid black;
+}
+.digit{
+    font-size: 100px;
+}
+h1{
+    font-family: italic;
+}
