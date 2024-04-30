@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Generator</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- External QR code library  -->
+    <!-- This is the library which helps to convert simple data to the images  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+</head>
+<body>
+
+    <div class="header">
+        <div class="box">
+            <h1>QR CODE GENERATOR</h1>
+            <hr style="height: 1px; background-color: black;">
+            <div class="sqrcode"></div>
+            <div class="qrcode"></div>
+            <input type="text" name="" id="text" placeholder="enter text or url, then press enter" onchange="generateQR()">
+            <!-- generateQR() is the function which helps to convert data into QR using the js library  -->
+        </div>
+
+    </div>
+    <script src="qr2.js"></script>
+    
+</body>
+</html>
