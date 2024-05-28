@@ -1,0 +1,71 @@
+
+ h1{
+    font-size: 80px;
+    text-shadow: 4px 4px rgb(3, 99, 104);
+    color: rgb(111, 6, 20);
+} 
+ body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#img_src
+{
+    border-color: aqua;
+    display: none;
+    margin: auto;
+    border: 2px solid green;
+}
+.container{
+
+         width: 100%;
+         height: 100vh;
+         flex-direction: column;
+         justify-content: center;
+         text-align: center;
+         display: flex;
+         /* background-color: rgb(61, 193, 210); */
+         background-image:linear-gradient(to right ,black, aqua, white) ;
+         
+}
+.digit{
+    font-size: 150px;
+}
+#txt{
+    font-size: 60px;
+}
+/* h1{
+    font-size: 80px;
+    text-shadow: 3px 3px blueviolet;
+    color: rgb(111, 6, 20);
+} */
+.buttons{
+    margin-top: 50px;
+}
+.btn{
+    width: 150px;
+    row-gap: 20px;
+    margin: 25px;
+    border-radius: 5px;
+    
+
+    font-size: 40px;
+}
+#start{
+    /* background-color: green; */
+    background-color: rgb(187, 187, 201);
+    box-shadow: 3px 3px green;
+}
+#reset{
+    /* background-color: red; */
+    background-color: rgb(137, 120, 199);
+    box-shadow: 3px 3px rgb(223, 94, 94);
+}
+#stop{
+    /* background-color:aqua; */
+    background-color: rgb(66, 123, 84);
+    box-shadow: 3px 3px rgb(15, 73, 73)
+    ;
+}
+
+
